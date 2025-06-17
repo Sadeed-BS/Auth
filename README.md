@@ -38,45 +38,30 @@ The server will run on ```http://localhost:4000.```
 - ```routes/``` - Express routers for auth, user, and admin
 - ```middlewere/``` - Authentication and admin middleware
 
+```
 .env
-
-[package.json](https://github.com/Sadeed-BS/Auth/blob/main/package.json)
-
-[README.md](https://github.com/Sadeed-BS/Auth/blob/main/README.md)
-
-[server.js](https://github.com/Sadeed-BS/Auth/blob/main/server.js)
-
+package.json
+README.md
+server.js
 config/
-
-  [emailTemplates.js](https://github.com/Sadeed-BS/Auth/blob/main/config/emailTemplates.js)
-  
-  [mongodb.js](https://github.com/Sadeed-BS/Auth/blob/main/config/mongodb.js)
-  
-  [nodemailer.js](https://github.com/Sadeed-BS/Auth/blob/main/config/nodemailer.js)
-  
-  [passport.js](https://github.com/Sadeed-BS/Auth/blob/main/config/passport.js)
-  
+  emailTemplates.js
+  mongodb.js
+  nodemailer.js
+  passport.js
 controllers/
-  [adminController.js](https://github.com/Sadeed-BS/Auth/blob/main/controllers/adminController.js)
-  [authController.js](https://github.com/Sadeed-BS/Auth/blob/main/controllers/authController.js)
-  [userController.js](https://github.com/Sadeed-BS/Auth/blob/main/controllers/userController.js)
+  adminController.js
+  authController.js
+  userController.js
 middlewere/
-
-  [adminAuth.js](https://github.com/Sadeed-BS/Auth/blob/main/middlewere/adminAuth.js)
-  
-  [userAuth.js](https://github.com/Sadeed-BS/Auth/blob/main/middlewere/userAuth.js)
-  
+  adminAuth.js
+  userAuth.js
 models/
-
-  [userModel.js](https://github.com/Sadeed-BS/Auth/blob/main/models/userModel.js)
-  
+  userModel.js
 routes/
-
-  [adminRoutes.js](https://github.com/Sadeed-BS/Auth/blob/main/routes/adminRoutes.js)
-  
-  [authRoutes.js](https://github.com/Sadeed-BS/Auth/blob/main/routes/authRoutes.js)
-  
-  [userRoutes.js](https://github.com/Sadeed-BS/Auth/blob/main/routes/userRoutes.js)
+  adminRoutes.js
+  authRoutes.js
+  userRoutes.js
+```
 
 
 ## 📚 API Endpoints
