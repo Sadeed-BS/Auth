@@ -38,7 +38,6 @@ The server will run on ```http://localhost:4000.```
 - ```routes/``` - Express routers for auth, user, and admin
 - ```middlewere/``` - Authentication and admin middleware
 
-```
 .env
 [package.json](https://github.com/Sadeed-BS/Auth/blob/main/package.json)
 [README.md](https://github.com/Sadeed-BS/Auth/blob/main/README.md)
@@ -62,7 +61,6 @@ routes/
   [authRoutes.js](https://github.com/Sadeed-BS/Auth/blob/main/routes/authRoutes.js)
   [userRoutes.js](https://github.com/Sadeed-BS/Auth/blob/main/routes/userRoutes.js)
 
-```
 
 ## 📚 API Endpoints
 Auth APIs (```/api/auth```)
