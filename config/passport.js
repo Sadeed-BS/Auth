@@ -26,7 +26,7 @@ passport.use(
             from: process.env.SENDER_EMAIL,
             to: profile.emails[0].value,
             subject: 'Welcome to Bandage',
-            text: `Welcome to Bandage website. Your account has been created with email id: ${profile.emails[0].value}`,
+            text: `Welcome to Auth website. Your account has been created with email id: ${profile.emails[0].value}`,
           }
 
           await transporter.sendMail(mailOptions);
